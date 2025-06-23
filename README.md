@@ -104,4 +104,4 @@ Dane są zapisywane w tabeli BigQuery w formacie zagnieżdżonym:
 - `price`: FLOAT  
 - `subtotal`: FLOAT
 
-🔐 Pola `email` i `phone` są szyfrowane algorytmem SHA-256 (zgodność z RODO i wymaganiami Looker Studio).
+🔐 Pola `email` i `phone` są szyfrowane algorytmem SHA-256 (zgodność z RODO i wymaganiami Looker Studio). Dodatkowo są dostosowane do importu jako Customer List dla Google Ads.
